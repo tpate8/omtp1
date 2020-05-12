@@ -15,7 +15,6 @@
         <activity android:name=".item4" />
         <activity android:name=".item3" />
         <activity android:name=".item2" />
-        <activity android:name=".forgotpwd" />
         <activity android:name=".check_out" />
         <activity android:name=".item_select" />
         <activity android:name=".movielist" />
