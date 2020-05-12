@@ -1,0 +1,34 @@
+Index: app/src/main/java/com/example/omtp1/forgotpwd.java
+===================================================================
+--- app/src/main/java/com/example/omtp1/forgotpwd.java	(revision 602ee3ba4a2068643ce7ff51cb0c27cc53a2deef)
++++ app/src/main/java/com/example/omtp1/forgotpwd.java	(revision 602ee3ba4a2068643ce7ff51cb0c27cc53a2deef)
+@@ -1,14 +0,0 @@
+-package com.example.omtp1;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-
+-public class forgotpwd extends AppCompatActivity {
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_forgotpwd);
+-    }
+-}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision 602ee3ba4a2068643ce7ff51cb0c27cc53a2deef)
++++ app/src/main/AndroidManifest.xml	(date 1589321103544)
+@@ -15,7 +15,6 @@
+         <activity android:name=".item4" />
+         <activity android:name=".item3" />
+         <activity android:name=".item2" />
+-        <activity android:name=".forgotpwd" />
+         <activity android:name=".check_out" />
+         <activity android:name=".item_select" />
+         <activity android:name=".movielist" />
